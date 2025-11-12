@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Productos 📦</h1>
+
+  <div>
+    <input id="nombre" placeholder="Nombre del producto">
+    <input id="cantidad" type="number" placeholder="Cantidad total">
+    <input id="costo" type="number" placeholder="Costo total">
+    <input id="ganancia" type="number" placeholder="% de ganancia">
+    <p>Precio unitario: <span id="precio-unitario">0</span></p>
+    <button onclick="guardarProducto()">Guardar</button>
+  </div>
+
+  <h2>Lista de Productos</h2>
+  <ul id="productos-lista"></ul>
+
+  <button onclick="location.href='index.html'">⬅ Volver</button>
+
+  <script src="app.js"></script>
+</body>
+</html>

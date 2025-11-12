@@ -1,0 +1,17 @@
+{
+  "name": "Mini Inventario",
+  "short_name": "Inventario",
+  "description": "App simple para controlar stock, ventas y ganancias diarias.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f7f6fb",
+  "theme_color": "#7a5af8",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/5087/5087579.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
+

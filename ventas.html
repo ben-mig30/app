@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ventas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ventas 💰</h1>
+
+  <div>
+    <select id="producto-venta"></select>
+    <input type="number" id="cantidad-venta" placeholder="Cantidad vendida">
+    <button onclick="registrarVenta()">Registrar Venta</button>
+  </div>
+
+  <h2>Ventas del Día</h2>
+  <ul id="ventas-lista"></ul>
+
+  <p id="ganancia-total" style="font-weight:bold;"></p>
+
+  <button onclick="mostrarHistorial()">Ver Historial 📅</button>
+  <ul id="historial-lista" style="display:none;"></ul>
+
+  <button onclick="location.href='index.html'">⬅ Volver</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
