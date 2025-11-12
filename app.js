@@ -103,10 +103,11 @@ function registrarVenta() {
     return;
   }
 
-    const producto = productos[prodIndex];
-    if (producto.stock < cantidadVendida) {
+  const producto = productos[prodIndex];
+  if (producto.stock < cantidadVendida) {
     alert("No hay suficiente stock");
     return;
+  }
 
   producto.stock -= cantidadVendida;
   guardarProductos(productos);
